@@ -50,6 +50,6 @@ darkToggle.addEventListener('click', () => {
 // memindahkan posisi toggle sesuai dengan tema yang dipilih
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     darkToggle.checked = true;
-  } else {
+} else {
     darkToggle.checked = false;
-  }
+}
